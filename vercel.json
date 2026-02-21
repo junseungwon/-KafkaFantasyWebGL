@@ -8,6 +8,15 @@
           "value": "application/wasm"
         }
       ]
+    },
+    {
+      "source": "/(.*)\\.unityweb",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "br"
+        }
+      ]
     }
   ]
 }
